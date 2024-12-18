@@ -1,6 +1,6 @@
 using System.Collections;
 using Barcode;
-using Barcode.Extensions;
+using CodeHelpers.Extensions;
 using FluentAssertions;
 
 namespace BarcodeTests;

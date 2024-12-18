@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0FC17F5E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarcodeTests", "tests\BarcodeTests\BarcodeTests.csproj", "{840DA614-9EBB-44A1-AEC0-4F4EC51E207F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeHelpers", "CodeHelpers\CodeHelpers.csproj", "{DF3F2AEE-058C-4AE1-B4B2-46514FA41E96}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{840DA614-9EBB-44A1-AEC0-4F4EC51E207F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{840DA614-9EBB-44A1-AEC0-4F4EC51E207F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{840DA614-9EBB-44A1-AEC0-4F4EC51E207F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF3F2AEE-058C-4AE1-B4B2-46514FA41E96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF3F2AEE-058C-4AE1-B4B2-46514FA41E96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF3F2AEE-058C-4AE1-B4B2-46514FA41E96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF3F2AEE-058C-4AE1-B4B2-46514FA41E96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{840DA614-9EBB-44A1-AEC0-4F4EC51E207F} = {0FC17F5E-12B7-4ED6-ADAB-DB2853BBEA08}

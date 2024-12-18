@@ -1,6 +1,5 @@
 using System.Collections;
-using System.Collections.Specialized;
-using Barcode.Extensions;
+using CodeHelpers.Extensions;
 
 namespace Barcode;
 
@@ -47,6 +46,7 @@ public class BarcodeEan13Converter : IBarcodeConverter
             "0011001",
             "0010011",
             "0111101",
+            "0100011",
             "0110001",
             "0101111",
             "0111011",
@@ -90,7 +90,7 @@ public class BarcodeEan13Converter : IBarcodeConverter
         digits.Reverse();
         
         var groupsCodes = FirstDigitCoding[digits[0]] + "RRRRRR";
-        return CodeDigitsGroup(groupsCodes, digits);
+        return CodeDigitsGroup(groupsCodes, digits.Skip(1).ToList());
     }
 
     private static List<BitArray> CodeDigitsGroup(string groupCode, IReadOnlyList<int> digits)

@@ -1,6 +1,6 @@
 using System.Collections;
 
-namespace Barcode.Extensions;
+namespace CodeHelpers.Extensions;
 
 public static class StringExtensions
 {

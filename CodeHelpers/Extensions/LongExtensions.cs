@@ -1,4 +1,4 @@
-namespace Barcode.Extensions;
+namespace CodeHelpers.Extensions;
 
 public static class LongExtensions
 {
